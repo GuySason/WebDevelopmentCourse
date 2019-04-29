@@ -1,0 +1,128 @@
+body {
+    direction: rtl;
+background-image:url(../image/back.jpeg);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#head1 {
+    display: block;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+    nav ul li a {
+        display: inline-block;
+        background-color: #2f2f33;
+        color: white;
+        width: 200px;
+        height: 30px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+        font-family: Alef;
+        font-size: 13pt;
+    }
+
+        nav ul li a:hover {
+            background-color: #3097D2;
+        }
+
+        nav ul li a:active {
+            background-color: deepskyblue;
+        }
+
+    nav ul li ul {
+        display: none;
+        position: absolute;
+    }
+
+    nav ul li:hover > ul {
+        display: block;
+        width: 120px;
+    }
+
+.currentPage {
+    background-color: white;
+    color: black;
+}
+
+#right {
+    text-align: center;
+    display: inline-block;
+    float: right;
+    color: black;
+    font-family: Alef;
+    margin-right: -25px;
+}
+
+#left {
+    text-align: center;
+    display: inline-block;
+    float: left;
+    color: black;
+    font-family: Alef;
+    margin-left: -40px;
+}
+
+#img1 {
+    display: inline-block;
+    width: 300px;
+    float: right;
+    margin-top:15px;
+}
+
+#img2 {
+    display: inline-block;
+    width: 300px;
+    float: left;
+    margin-top: 15px;
+    height:150px;
+}
+
+#p1 {
+    border: 2px solid black;
+    background-color: white;
+    padding: 20px;
+    display: inline-block;
+    width: 257px;
+    height: 130px;
+    float: right;
+    position: relative;
+    top: 180px;
+    right: -300px;
+    color: black;
+    font-family: Alef;
+}
+
+#p2 {
+    padding: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    width: 257px;
+    height: 130px;
+    float: left;
+    position: relative;
+    top: 20px;
+    color: black;
+    font-family: Alef;
+    background-color: white;
+}
+
+#video {
+    display: block;
+    position: relative;
+    top: 90px;
+}
+nav{
+    margin-right:60px;
+}

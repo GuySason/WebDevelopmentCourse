@@ -1,0 +1,127 @@
+body {
+    direction: rtl;
+    background-color: cornflowerblue;
+    background-image: url(../image/dragon.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+@font-face {
+    font-family: "GOT";
+    src: url('../fonts/Game of Thrones.ttf');
+    src: url('../fonts/Game of Thrones.eot?#iefix') format('embedded-opentype'), url(''../fonts/Game of Thrones.ttf'') format('truetype');
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#head1 {
+    display: block;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+    nav ul li a {
+        display: inline-block;
+        background-color: #2f2f33;
+        color: white;
+        width: 200px;
+        height: 30px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+        font-family: Alef;
+        font-size: 13pt;
+    }
+
+        nav ul li a:hover {
+            background-color: #3097D2;
+        }
+
+        nav ul li a:active {
+            background-color: deepskyblue;
+        }
+
+    nav ul li ul {
+        display: none;
+        position: absolute;
+    }
+
+    nav ul li:hover > ul {
+        display: block;
+        width: 120px;
+    }
+
+.currentPage {
+    background-color: white;
+    color: black;
+}
+
+#img1 {
+    display: inline-block;
+    height: 425px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+#img2 {
+    display: inline-block;
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+}
+
+#center {
+    position: relative;
+    text-align: center;
+    top: -300px;
+    right:610px;
+    color: whitesmoke;
+    font-family: Alef;
+    width: 300px;
+}
+#center2{
+    margin-left:107px;
+    font-size:20pt;
+    text-align:center;
+    font-family: GOT;
+    letter-spacing: 2px;
+    color:whitesmoke;
+
+}
+
+#right {
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 20px;
+    font-family: Alef;
+    color: whitesmoke;
+    font-size: 15pt;
+}
+
+#left {
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 100px;
+    font-family: Alef;
+    color: whitesmoke;
+    font-size:15pt;
+}
+
+#audio1 {
+    top: -395px;
+    position: relative;
+    display: block;
+    left: -610px;
+}
+nav{
+    margin-right:60px;
+}
