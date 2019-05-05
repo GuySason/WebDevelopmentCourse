@@ -40,17 +40,6 @@ nav ul li {
         nav ul li a:active {
             background-color: deepskyblue;
         }
-
-    nav ul li ul {
-        display: none;
-        position: absolute;
-    }
-
-    nav ul li:hover > ul {
-        display: block;
-        width: 120px;
-    }
-
 .currentPage {
     background-color: white;
     color: black;

@@ -10,10 +10,6 @@ background-size:cover;
     margin: 0 auto;
 }
 
-#head1 {
-    display: block;
-    float: right;
-}
 
 nav ul li {
     display: inline-block;
@@ -41,15 +37,6 @@ nav ul li {
             background-color: deepskyblue;
         }
 
-    nav ul li ul {
-        display: none;
-        position: absolute;
-    }
-
-    nav ul li:hover > ul {
-        display: block;
-        width: 120px;
-    }
 
 .currentPage {
     background-color: white;
@@ -58,16 +45,18 @@ nav ul li {
 
 #first {
     font-family: Alef;
-    font-size: 30px;
-    display: block;
-    text-align:center;
+    font-size: 29pt;
+    text-align: center;
+    color: black;
+    width: 470px;
+    position: relative;
+    top: 30px;
+    right: 210px;
 }
-
 #text1 {
     display: inline-block;
     text-align: right;
-    float: left;
-    clear: both;
+    float: right;
     padding: 20px;
     border: 1px solid black;
     background-color: whitesmoke;
@@ -75,25 +64,30 @@ nav ul li {
     width: 200px;
     font-family: Alef;
     position: relative;
-    left: 150px;
-    top: 183px;
+    right: 68px;
+    top: -332px;
 }
-
-
 #img1 {
     display: inline-block;
     position: relative;
-    right: 70px;
     width: 300px;
     clear: both;
+    right: 566px;
+    top:90px;
 }
-
 #audio2 {
     display: inline-block;
-    top: -322px;
-    right: 230px;
+    right: -447px;
     position: relative;
+    top: 90px;
 }
 nav {
     margin-right: 68px;
+}
+.imgk {
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    right: 30px;
+    bottom: 65px;
 }

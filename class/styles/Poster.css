@@ -46,17 +46,6 @@ nav ul li {
         nav ul li a:active {
             background-color: deepskyblue;
         }
-
-    nav ul li ul {
-        display: none;
-        position: absolute;
-    }
-
-    nav ul li:hover > ul {
-        display: block;
-        width: 120px;
-    }
-
 .currentPage {
     background-color: white;
     color: black;
@@ -67,6 +56,9 @@ nav ul li {
     height: 425px;
     width: 300px;
     margin-left: 30px;
+    position: relative;
+    top: 70px;
+    left: 115px;
 }
 
 #img2 {
@@ -74,25 +66,29 @@ nav ul li {
     width: 300px;
     float: left;
     margin-right: 40px;
+    position: relative;
+    bottom: 358px;
+    right: 100px;
 }
 
 #center {
     position: relative;
     text-align: center;
     top: -300px;
-    right:610px;
+    right:320px;
     color: whitesmoke;
     font-family: Alef;
     width: 300px;
 }
-#center2{
-    margin-left:107px;
-    font-size:20pt;
-    text-align:center;
+#center2 {
+    margin-left: 28px;
+    font-size: 20pt;
+    text-align: center;
     font-family: GOT;
     letter-spacing: 2px;
-    color:whitesmoke;
-
+    color: whitesmoke;
+    position: relative;
+    top: 30px;
 }
 
 #right {
@@ -113,14 +109,16 @@ nav ul li {
     left: 100px;
     font-family: Alef;
     color: whitesmoke;
-    font-size:15pt;
+    font-size: 15pt;
+    position: relative;
+    bottom: 400px;
 }
 
 #audio1 {
-    top: -395px;
+    bottom: -12px;
     position: relative;
     display: block;
-    left: -610px;
+    left: -320px;
 }
 nav{
     margin-right:60px;
