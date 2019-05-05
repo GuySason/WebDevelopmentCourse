@@ -1,8 +1,8 @@
 body {
     direction: rtl;
-background-image:url(../image/back.jpeg);
-background-repeat:no-repeat;
-background-size:cover;
+    background-image: url(../image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #container {
