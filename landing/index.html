@@ -1,0 +1,73 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>Landing Page</title>
+    <meta name="description" content="דף נחיתה לפקולטה לטכנולוגיות למידה במכון טכנולוגי חולון" />
+    <meta name="keywords" content="טכנולוגיות למידה, פיתוח הדרכה, מכון טכנולוגי חולון, עיצוב גרפי" />
+    <meta name="author" content="Guy Sason" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js"
+            type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="container">
+        <article>
+            <section>
+                <h1>צוות הפקולטה לטכונולוגיות למידה ישמח לעמוד לשירותך</h1>
+
+                <h2>גם בסוף העולם!</h2>
+
+                <img id="Logo" src="image/logo.png" alt="Logo" />
+                <p id="what">מה לומדים?</p>
+               <img id="images" src="image/images.png" alt="Images" />
+               
+            </section>
+            <section>
+                <p id="ul">למי מיועד התואר?</p>
+                <ul>
+                    <li>למתעניינים בעולמות של ניו-מדיה ותוכן דיגיטאלי ורוצים להפוך את התחביב למקצוע מבוקש.</li>
+                    <li>לבעלי עניין ורקע בהדרכה (בצבא או בכל מסגרת אחרת) ו/או בעיצוב ממשק ואינטראקטיב.</li>
+                    <li>לבעלי "ראש גדול", המעוניינים לשלב בין כמה עולמות ולהיות המובילים בתחום חדש ומאתגר.</li>
+                </ul>
+            </section>
+
+            <section>
+                <form id="contact">
+                    <input type="hidden" id="myEmail" name="name" value="guysason08@gmail.com">
+                    <p id="more">לפרטים נוספים והרשמה <a href="https://www.hit.ac.il/telem/overview" target="_blank">קרא עוד</a> או מלא פרטיך:</p>
+
+                    <label for="FullName">
+
+                        <input class="try2" type="text" id="FullName" placeholder="שם מלא" />
+                    </label>
+
+                    <label for="Email">
+
+                        <input class="try" type="text" id="Email" placeholder="דוא''ל" />
+                    </label>
+
+                    <label for="PhoneNumber">
+
+                        <input class="try" type="text" id="PhoneNumber" placeholder="טלפון" />
+                    </label>
+
+                    <input type="submit" id="Send" value="שליחה">
+
+                    <div id="feedback"></div>
+
+                </form>
+            </section>
+        </article>
+    </div>
+</body>
+</html>
